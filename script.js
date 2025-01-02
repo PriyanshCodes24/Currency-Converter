@@ -56,4 +56,5 @@ arrows.addEventListener("click",()=>{
     let temp=fromcurr.value;
     fromcurr.value=tocurr.value;
     tocurr.value=temp;
+    console.log("btn clicked");
 });
